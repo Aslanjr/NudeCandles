@@ -4,6 +4,8 @@
     <Slider/>
     <Infoblock/>
     <Products/>
+    <Message/>
+    <Footer/>
   </div>
 </template>
 
@@ -13,6 +15,8 @@ import Header from '../components/Header.vue'
 import Slider from '../components/Slider.vue'
 import Infoblock from '../components/infoblock.vue'
 import Products from '../components/products.vue'
+import Message from '../components/message.vue';
+import Footer from '../components/footer.vue'
 
 export default {
   name: 'Home',
@@ -20,7 +24,9 @@ export default {
     Header,
     Slider,
     Infoblock,
-    Products
+    Products,
+    Message,
+    Footer
   }
 }
 </script>
